@@ -2,7 +2,9 @@
   description = "Flake based elixir development environment";
 
   # that needs some more specification
-  inputs = { nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable"; };
+  inputs = {
+    nixpkgs.url = "github:nixos/nixpkgs?ref=nixpkgs-25.05-darwin";
+  };
 
   outputs = inputs:
     let
